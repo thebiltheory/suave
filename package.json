@@ -1,0 +1,26 @@
+{
+  "name": "suave",
+  "version": "1.0.0",
+  "description": "A smooth monorepo template to smoothly start your project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebiltheory/suave.git"
+  },
+  "keywords": [
+    "monorepo",
+    "codecoverage",
+    "test",
+    "frontend",
+    "backend"
+  ],
+  "author": "Bil Benhamou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebiltheory/suave/issues"
+  },
+  "homepage": "https://github.com/thebiltheory/suave#readme"
+}
