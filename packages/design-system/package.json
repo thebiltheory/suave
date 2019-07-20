@@ -1,0 +1,8 @@
+{
+  "name": "@suave/design-system",
+  "version": "0.0.0",
+  "description": "Suave design system package",
+  "main": "index.js",
+  "author": "Bil Benhamou",
+  "license": "MIT"
+}

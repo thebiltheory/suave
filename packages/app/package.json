@@ -1,0 +1,8 @@
+{
+  "name": "@suave/app",
+  "version": "0.0.0",
+  "description": "React Native app codebase package",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Bil Benhamou"
+}

@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "A smooth monorepo template to smoothly start your project",
   "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "cross-env HUSKY_BYPASS=true lerna publish"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thebiltheory/suave.git"
-  },
+  "repository": "git+https://github.com/thebiltheory/suave.git",
   "keywords": [
     "monorepo",
     "codecoverage",
@@ -22,5 +24,22 @@
   "bugs": {
     "url": "https://github.com/thebiltheory/suave/issues"
   },
-  "homepage": "https://github.com/thebiltheory/suave#readme"
+  "homepage": "https://github.com/thebiltheory/suave#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "cross-env": "^5.2.0",
+    "husky": "^3.0.1",
+    "lerna": "^3.16.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "[[ -n $HUSKY_BYPASS ]] || commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
 }

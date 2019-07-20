@@ -1,0 +1,14 @@
+{
+  "name": "@suave/web",
+  "version": "0.0.0",
+  "description": "Web app package",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Bil Benhamou",
+  "license": "MIT",
+  "dependencies": {
+    "@suave/design-system": "^0.0.0"
+  }
+}
