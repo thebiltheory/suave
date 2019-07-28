@@ -1,0 +1,29 @@
+coverage:
+  status:
+    project:
+      default: off
+      web:
+        target: 80%
+        flags: web
+      design-system:
+        target: 80%
+        flags: design-system
+      app:
+        target: 80%
+        flags: app
+
+flags:
+  # filter the folder(s) you wish to measure by that flag
+  web:
+    # only include files in the backend folder
+    paths:
+      - packages/web/
+  design-system:
+    paths:
+      - packages/design-system/
+  app:
+    paths:
+      - packages/app/
+  tests:
+    paths:
+      - tests/
