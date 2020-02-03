@@ -5,7 +5,8 @@ A monorepo repo to start your project smoothly.
 
 ### What's in this repo
 
-- Code coverage for monorepo
+- [ ] CI for different repos.
+- [ ] Codecoverage
 
 
 #### Add a local sibling package as dependency
