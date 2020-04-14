@@ -1,0 +1,33 @@
+Arguments: 
+  /Users/thebiltheory/.nvm/versions/node/v12.16.2/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/thebiltheory/TheBilTheory/open-source/suave/packages/app/node_modules/.bin:/Users/thebiltheory/TheBilTheory/open-source/suave/packages/node_modules/.bin:/Users/thebiltheory/TheBilTheory/open-source/suave/node_modules/.bin:/Users/thebiltheory/TheBilTheory/open-source/node_modules/.bin:/Users/thebiltheory/TheBilTheory/node_modules/.bin:/Users/thebiltheory/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/Users/thebiltheory/.nvm/versions/node/v12.16.2/bin:/Users/thebiltheory/.nvm/versions/node/v12.16.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.16.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-8.3.4.tgz: ENOENT: no such file or directory, open '/Users/thebiltheory/Library/Caches/Yarn/v6/npm-@commitlint-config-conventional-8.3.4-fed13b3711690663b176c1f6b39c205a565618d2-integrity/node_modules/@commitlint/config-conventional/.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "@suave/app",
+    "version": "0.0.0",
+    "description": "React Native app codebase package",
+    "main": "index.js",
+    "license": "MIT",
+    "author": "Bil Benhamou"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

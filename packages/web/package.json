@@ -9,6 +9,6 @@
   "author": "Bil Benhamou",
   "license": "MIT",
   "dependencies": {
-    "@suave/design-system": "^0.0.0"
+    "@suave/design-system": "file:../design-system"
   }
 }

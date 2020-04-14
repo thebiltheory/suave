@@ -1,31 +1,30 @@
-# @suave/design-system
+# design-system
 
-> Design system
+> @suave/design system
 
-[![NPM](https://img.shields.io/npm/v/@suave/design-system.svg)](https://www.npmjs.com/package/@suave/design-system) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/design-system.svg)](https://www.npmjs.com/package/design-system) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @suave/design-system
+npm install --save design-system
 ```
 
 ## Usage
 
-```jsx
+```tsx
 import React, { Component } from 'react'
 
-import MyComponent from '@suave/design-system'
+import MyComponent from 'design-system'
+import 'design-system/dist/index.css'
 
 class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
+  render() {
+    return <MyComponent />
   }
 }
 ```
 
 ## License
 
-MIT © [thebiltheory](https://github.com/thebiltheory)
+MIT © [TheBilTheory](https://github.com/TheBilTheory)

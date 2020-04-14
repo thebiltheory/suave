@@ -1,13 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-import ExampleComponent from '@suave/design-system'
+import { ExampleComponent } from 'design-system'
+import 'design-system/dist/index.css'
 
-export default class App extends Component {
-  render () {
-    return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
-  }
+const App = () => {
+  return <ExampleComponent text="Create React Library Example 😄" />
 }
+
+export default App
