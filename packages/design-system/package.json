@@ -30,7 +30,7 @@
     "@types/jest": "^25.1.4",
     "@types/react": "^16.9.27",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
-    "@typescript-eslint/parser": "^2.26.0",
+    "@typescript-eslint/parser": "^4.15.1",
     "microbundle-crl": "^0.13.8",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
